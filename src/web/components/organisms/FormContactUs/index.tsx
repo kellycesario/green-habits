@@ -48,7 +48,7 @@ export const FormContactUs = () => {
     resetReactHookForm()
   }
 
-  const handleFormSubmit = async (data) => {
+  const handleFormSubmit = async (data: any) => {
     await handleSubmitReactHookForm(data)
     await handleSubmitFormspree(data)
     handleModalOpen()
